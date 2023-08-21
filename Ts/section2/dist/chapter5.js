@@ -12,6 +12,7 @@ var Language;
     Language["korea"] = "ko";
     Language["english"] = "en";
 })(Language || (Language = {}));
+// enum 은 컴파일해도 사라지지 않고 JS 로 변경된다.
 const user1 = {
     name: "김철수",
     role: Role.ADMIN,
