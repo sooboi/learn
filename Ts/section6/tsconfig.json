@@ -5,6 +5,7 @@
     "outDir": "dist",
     "moduleDetection": "force",
     "allowJs": true
+    // "noImplicitAny": false
   },
   "ts-node": {
     "esm": true

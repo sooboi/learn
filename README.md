@@ -8,16 +8,16 @@
 
 ### 📌 학습 계획 및 내용
 
-| 주제            | 내용 |
+| 주제            | 학습 |
 | :-------------- | :--: |
-| HTML            |      |
-| CSS             |      |
-| JavaScript      |      |
+| HTML            |  o   |
+| CSS             |  o   |
+| JavaScript      |  o   |
 | TypeScript      |      |
-| React           |      |
+| React           |  o   |
 | PostCSS         |      |
 | Sass            |      |
-| Style-Component |      |
+| Style-Component |  o   |
 | Tailwind        |      |
 | React Query     |      |
-| Firebase        |      |
+| Firebase        |  o   |
