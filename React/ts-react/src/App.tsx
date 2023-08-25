@@ -9,6 +9,7 @@ import "./App.css";
 import Editor from "./component/Editor";
 import { Todo } from "./types";
 import TodoItem from "./component/TodoItem";
+import _ from "lodash";
 
 // reducer 에 사용할 Action 정의
 type Action =
