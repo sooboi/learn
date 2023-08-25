@@ -13,7 +13,7 @@
 | HTML            |  o   |
 | CSS             |  o   |
 | JavaScript      |  o   |
-| TypeScript      |      |
+| TypeScript      |  o   |
 | React           |  o   |
 | PostCSS         |      |
 | Sass            |      |
