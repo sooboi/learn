@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.orange {
+  color: orange;
+}
+
+.Profile {
+  width: 300px;
+  text-align: center;
+  padding: 1rem;
+  background-color: #ebebeb;
+  border-radius: 20px;
+  box-shadow: 11px 17px 35px -13px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 11px 17px 35px -13px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 11px 17px 35px -13px rgba(0, 0, 0, 0.63);
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 100%;
+}

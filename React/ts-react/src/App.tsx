@@ -1,10 +1,4 @@
-import React, {
-  useContext,
-  useEffect,
-  useReducer,
-  useRef,
-  useState,
-} from "react";
+import React, { useContext, useEffect, useReducer, useRef } from "react";
 import "./App.css";
 import Editor from "./component/Editor";
 import { Todo } from "./types";
