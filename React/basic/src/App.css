@@ -16,6 +16,7 @@
   box-shadow: 11px 17px 35px -13px rgba(0, 0, 0, 0.63);
   -webkit-box-shadow: 11px 17px 35px -13px rgba(0, 0, 0, 0.63);
   -moz-box-shadow: 11px 17px 35px -13px rgba(0, 0, 0, 0.63);
+  margin-bottom: 1rem;
 }
 
 .photo {
@@ -23,4 +24,21 @@
   height: 200px;
 
   border-radius: 100%;
+}
+
+.Avatar {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.new {
+  position: absolute;
+  left: 70%;
+  top: 10%;
+  background-color: aquamarine;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
