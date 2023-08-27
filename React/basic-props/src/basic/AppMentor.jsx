@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./AppMentor.css";
 
 export default function AppMentor() {
   const [person, setPerson] = useState({
