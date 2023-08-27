@@ -2,19 +2,22 @@ import React, { useState } from "react";
 import "./AppXY.css";
 
 export default function AppXY() {
-  const [x, setX] = useState(0);
-  const [y, setY] = useState(0);
+  const [position, setPosition] = useState({
+    x: 0,
+    y: 0,
+  });
 
   const handleXY = (e) => {
-    setX(e.clientX);
-    setY(e.clientY);
+    // setPosition({ x: e.clientX, y: e.clientY });
+    // 수평으로만 이동 가능
+    setPosition((prev) => ({ ...prev, y: prev.y }));
   };
 
   return (
     <div className="container" onPointerMove={handleXY}>
       <div
         className="pointer"
-        style={{ transform: `translate(${x}px, ${y}px)` }}
+        style={{ transform: `translate(${position.x}px, ${position.y}px)` }}
       >
         <pointer />
       </div>
