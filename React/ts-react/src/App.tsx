@@ -1,9 +1,9 @@
 import React, { useContext, useEffect, useReducer, useRef } from "react";
-import "./App.css";
-import Editor from "./component/Editor";
 import { Todo } from "./types";
+import Editor from "./component/Editor";
 import TodoItem from "./component/TodoItem";
 import _ from "lodash";
+import "./App.css";
 
 // reducer 에 사용할 Action 정의
 type Action =
