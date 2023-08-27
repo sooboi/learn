@@ -1,22 +1,9 @@
 import React, { useState } from "react";
 
 export default function AppMentors() {
-  const [person, setPerson] = useState({
-    name: "멘티",
-    title: "개발자",
-    mentors: [
-      {
-        name: "멘토1",
-        title: "시니어개발자",
-      },
-      {
-        name: "멘토2",
-        title: "시니어개발자",
-      },
-    ],
-  });
+  const [person, setPerson] = useState(initialPerson);
 
-  const handleClick = () => {
+  const handleChange = () => {
     const prev = prompt(`누구의 이름을 바꿀까요?`);
     const current = prompt(`어떤 이름으로 변경할까요?`);
 
@@ -28,6 +15,23 @@ export default function AppMentors() {
         }
         return it;
       }),
+    }));
+  };
+
+  const handleDelete = () => {
+    const name = prompt(`누구를 지울까요?`);
+    setPerson((person) => ({
+      ...person,
+      mentors: person.mentors.filter((m) => m.name !== name),
+    }));
+  };
+
+  const handleAdd = () => {
+    const name = prompt("이름은 무엇인가요?");
+    const title = prompt("타이틀은 무엇인가요?");
+    setPerson((person) => ({
+      ...person,
+      mentors: [...person.mentors, { name, title }],
     }));
   };
 
@@ -44,7 +48,24 @@ export default function AppMentors() {
           </li>
         ))}
       </ul>
-      <button onClick={handleClick}>멘토 이름 바꾸기</button>
+      <button onClick={handleChange}>멘토 이름 바꾸기</button>
+      <button onClick={handleAdd}>멘토 추가</button>
+      <button onClick={handleDelete}>멘토 삭제</button>
     </div>
   );
 }
+
+const initialPerson = {
+  name: "멘티",
+  title: "개발자",
+  mentors: [
+    {
+      name: "멘토1",
+      title: "시니어개발자",
+    },
+    {
+      name: "멘토2",
+      title: "시니어개발자",
+    },
+  ],
+};
