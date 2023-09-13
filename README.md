@@ -4,7 +4,6 @@
 
 ### ⚡️ 현재 학습 중인 주제
 
-`TypeScript 타입스크립트`
 
 ### 📌 학습 계획 및 내용
 
@@ -15,9 +14,9 @@
 | JavaScript      |  o   |
 | TypeScript      |  o   |
 | React           |  o   |
-| PostCSS         |      |
+| PostCSS         |    o  |
 | Sass            |      |
 | Style-Component |  o   |
-| Tailwind        |      |
-| React Query     |      |
+| Tailwind        |  o    |
+| React Query     |  o  |
 | Firebase        |  o   |
