@@ -15,7 +15,7 @@
 | TypeScript      |  o   |
 | React           |  o   |
 | PostCSS         |    o  |
-| SCSS            |   o   |
+| SASS            |   o   |
 | Style-Component |  o   |
 | Tailwind        |  o    |
 | React Query     |  o  |
